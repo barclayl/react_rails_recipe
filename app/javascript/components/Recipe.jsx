@@ -100,7 +100,7 @@ class Recipe extends React.Component {
               </ul>
             </div>
             <div className="col-sm-12 col-lg-7">
-              <h5 className="mb-2">Preparation Instriction</h5>
+              <h5 className="mb-2">Preparation Instructions</h5>
               <div
                 dangerouslySetInnerHTML={{
                   __html: `${recipeInstruction}`
